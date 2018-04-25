@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.customview">
+
+
+
+    <!-- Have developers add this. We don't want AUDIO permission to be auto-added to
+         apps that just want to take pictures. -->
+    <!-- uses-permission android:name="android.permission.RECORD_AUDIO" /-->
+
+
+    <application/>
+
+</manifest>

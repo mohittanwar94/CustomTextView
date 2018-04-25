@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SnapTextView">
+        <attr name="textFont" format="integer">
+            <flag name="GOTHAM_LIGHT" value="0" />
+            <flag name="GOTHAM_MEDIUM" value="1" />
+            <flag name="GOTHAM_BOLD" value="2" />
+        </attr>
+        <attr name="drawableLeftCompat" format="reference" />
+        <attr name="drawableRightCompat" format="reference" />
+        <attr name="drawableTopCompat" format="reference" />
+        <attr name="drawableBottomCompat" format="reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.github.customview.SnapTextView
+        android:id="@+id/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/clap_loss"
+        android:text="Hello World! Light"
+        app:textFont="GOTHAM_LIGHT" />
+
+    <com.github.customview.SnapTextView
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_add_tag"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Medium"
+        app:textFont="GOTHAM_MEDIUM" />
+
+    <com.github.customview.SnapTextView
+        android:id="@+id/bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Bold"
+        android:layout_margin="20dp"
+        app:textFont="GOTHAM_BOLD" />
+
+    <com.github.customview.SnapTextView
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:text="this is custom textview created by me(mohittanwar94). its free to use any body can modify this and use. its also support drawable vector (like you can set drawableleft,drawableright ,drawabletop,drawablebottom) &amp; you can easily set Typeface through xml thank you happy coding......>): "
+        android:layout_margin="20dp"
+        app:textFont="GOTHAM_BOLD" />
+
+</LinearLayout>
